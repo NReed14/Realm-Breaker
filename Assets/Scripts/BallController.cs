@@ -40,6 +40,7 @@ public class BallController : MonoBehaviour
             ballRigidbody.velocity = Vector3.zero;
             transform.position = startPosition;
             ballLaunched = false;
+            gameMaster.playerLives--;
         }
     }
 
