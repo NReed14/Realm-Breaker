@@ -5,9 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class GameMaster : MonoBehaviour
 {
-    public float playerPoints;
+   public float playerPoints;
     public float maxLevelPoints;
     public float playerLives = 3;
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,8 +26,8 @@ public class GameMaster : MonoBehaviour
 
         if(playerPoints >= maxLevelPoints)
         {
-            SceneManager.LoadScene("WinScene");
+            SceneManager.LoadScene("Level 2");
         }
 
     }
-}
+} 
