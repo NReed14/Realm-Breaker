@@ -11,6 +11,9 @@ public class BallController : MonoBehaviour
     public float ballForce;
     public Vector3 startPosition;
     public GameMaster gameMaster;
+    public GameMaster2 gameMaster2;
+    public GameMaster3 gameMaster3;
+    public GameMaster4 gameMaster4;
 
 
     // Start is called before the first frame update
